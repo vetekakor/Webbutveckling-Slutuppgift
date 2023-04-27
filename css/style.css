@@ -1,0 +1,14 @@
+body{
+      font-family: Montserrat;
+      background-image: url('bilder/index_background.jpg');
+}
+.headerfont{
+  size: 100000em;
+}
+.navbar-nav > li{ 
+  padding-left:4em;
+  padding-right:4em;
+}
+.section1padding{
+  padding-top: 3em;
+}
