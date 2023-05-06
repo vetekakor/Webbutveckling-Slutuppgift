@@ -1,6 +1,7 @@
 body{
       font-family: Montserrat;
       background-image: url('bilder/index_background.jpg');
+      color: white;
 }
 /* NAVBAR */
 .headerfont{
@@ -13,18 +14,16 @@ body{
 /* NAVBAR END */
 
 /* INTRO CONTAINER */
-.section1padding{
-  padding-top: 3em;
-}
-
 .introcontainer{
   width:  800px;
   margin-top:   100px;
   background-color: #2b3035;
 }
+.delunderline{
+  text-decoration:none;
+}
 .textalign{
   text-align:   center;
-  color:  white;
 }
 .whitetext{
   color: white;
@@ -48,11 +47,13 @@ body{
 
 /* INTRO CONTAINER END */
 
+/*INTRO CONTAINER SIZE-ADJUSTER */
+
 /* Galaxy S10 */
 @media screen and (max-width: 500px) { 
   .introcontainer{
     width: 330px;
-    height: 500px;
+    height: 350px,;
   }
   .introdiscordimage{
     margin-left: 0px;
@@ -69,3 +70,24 @@ body{
   height: 100px;
 }
 }
+/*INTRO CONTAINER SIZE-ADJUSTER END*/
+
+/*TEXT CONTAINER*/
+.textcontainer{
+width:  45em;
+margin-top:   100px;
+margin-left: 10em;
+background-color: #2b3035;
+float: left;
+}
+
+/*TEXT CONATINER END */
+
+/*YouTube CONTAINER*/
+.textcontainer{
+width:  45em;
+margin-top:   100px;
+background-color: #2b3035;
+}
+
+/*YouTube CONATINER END */
