@@ -2,6 +2,7 @@ body{
       font-family: Montserrat;
       background-image: url('bilder/index_background.jpg');
 }
+/* NAVBAR */
 .headerfont{
   size: 100000em;
 }
@@ -9,6 +10,9 @@ body{
   padding-left:4em;
   padding-right:4em;
 }
+/* NAVBAR END */
+
+/* INTRO CONTAINER */
 .section1padding{
   padding-top: 3em;
 }
@@ -40,10 +44,12 @@ body{
   margin: right;
   width:  150px;
   height:   150px;
-
 }
+
+/* INTRO CONTAINER END */
+
 /* Galaxy S10 */
-@media screen and (max-width: 360px) { 
+@media screen and (max-width: 500px) { 
   .introcontainer{
     width: 330px;
     height: 500px;
