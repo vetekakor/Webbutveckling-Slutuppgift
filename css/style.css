@@ -14,26 +14,34 @@ body{
 }
 
 .introcontainer{
-  width:  500px;
+  width:  800px;
   margin-top:   100px;
   background-color: #2b3035;
 }
-.introtext{
+.textalign{
   text-align:   center;
   color:  white;
 }
+.whitetext{
+  color: white;
+}
 .introimagesize{
-  width:  100px;
-  height:   100px;
+  width:  160px;
+  height:   160px;
 }
 .introdiscordimage{
-  margin-left:  100px;
+ margin-left: 150px;
 
 }
 .introfacebookimage{
   margin-right:   40px;
 }
+.introquestimage{
+  margin: right;
+  width:  150px;
+  height:   150px;
 
+}
 /* Galaxy S10 */
 @media screen and (max-width: 360px) { 
   .introcontainer{
@@ -49,5 +57,9 @@ body{
 .introquestimage{
   width: 90px;
   height: 90px;
+}
+.introimagesize{
+  width: 100px;
+  height: 100px;
 }
 }
