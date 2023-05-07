@@ -56,39 +56,13 @@ body{
   justify-content: center;
   align-content: center;
 }
-
-/* TEXT COLUMN + YT COLUMN */
-
-
+/* TEXT SECTION */
 .textcolumncontainer{
-  width: 50em;
+  width: 100em;
   text-align: left;
   margin-top:   6.25em;
   background-color: #2b3035;
   margin-bottom: 6.25em;
-}
-
-.ytcolumncontainer{
-  width: 50em;
-  text-align: left;
-  margin-top:   6.25em;
-  background-color: #2b3035;
-  margin-bottom: 6.25em;
-}
-
-.video-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  padding-bottom: 56.25%;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
 
 /* FOOTER */
@@ -102,9 +76,10 @@ body{
   color: white;
 }
 
+
 /* All Devices */
+/* SMALL SCREEN */
 @media screen and (max-width: 40em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
   .introcontainer{
     width: 20.625em;
     height:21.875em;
@@ -128,14 +103,8 @@ body{
   width: 20.625em;
 }
 }
-
+/* BIG SCREEN */
 @media screen and (min-width: 140em) { 
-.textcolumncontainer{
-  width: 50%;
-}
-.ytcolumncontainer{
-  width: 50%;
-}
 .introcontainer{
   width: 50%;
 }
@@ -150,9 +119,11 @@ width: 0%;
 .textadjust{
   font-size: 300%;
 }
-.pmargin2{
+.pmargin{
   margin-left: 7em;
+}
+.textcolumncontainer{
+  width: 50%;
 }
 }
 /* All Devices END*/
-
