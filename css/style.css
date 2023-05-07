@@ -53,6 +53,15 @@ body{
   text-align: left;
   margin-top:   6.25em;
   background-color: #2b3035;
+  margin-bottom: 6.25em;
+}
+
+.ytcolumncontainer{
+  width: 50em;
+  text-align: left;
+  margin-top:   6.25em;
+  background-color: #2b3035;
+  margin-bottom: 6.25em;
 }
 
 .video-container {
@@ -70,8 +79,19 @@ body{
   height: 100%;
 }
 
-
-
+/* FOOTER */
+.sidfot{
+  background-color: #2b3035;
+}
+.pmargin{
+  margin-top: -15px;
+}
+.pmargin2{
+  margin-top: 15px;
+}
+.footerhyperlinkcolour{
+  color: white;
+}
 /* All Devices */
 @media screen and (max-width: 40em) { 
   /*INTRO CONTAINER SIZE-ADJUSTER */
