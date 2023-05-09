@@ -123,11 +123,11 @@ width: 0%;
 }
 
 /*Laptop monitor*/
-@media screen and (max-width: 50em) { 
+@media screen and (min-width: 40em) { 
   /*INTRO CONTAINER SIZE-ADJUSTER */
   .introcontainer{
     width: 41.25em;
-    height:21.875em;
+    height:13em;
   }
   .introdiscordimage{
     margin-left: 0em;
