@@ -7,15 +7,6 @@ body{
   background-attachment: fixed;
   background-size: cover;
 }
-/* NAVBAR */
-.headerfont{
-  size: 100000em;
-}
-.navbar-nav > li{ 
-  padding-left:4em;
-  padding-right:4em;
-}
-/* NAVBAR END */
 
 /* INTRO CONTAINER */
 .introcontainer{
