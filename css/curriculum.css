@@ -57,18 +57,19 @@ body{
   margin-top:   6.25em;
   background-color: #2b3035;
 }
-.twolistscontainer{
-  width:  25em;
-  height:   15em;
-  text-align:   left;
-  background-color: #2b3035  ;
 
+.lasttextcolumncontainer{
+  width: 50em;
+  text-align: left;
+  margin-top:   6.25em;
+  margin-bottom:   6.25em;
+  background-color: #2b3035;
 }
-
 
 /* FOOTER */
 .sidfot{
   background-color: #2b3035;
+
 }
 .pmargin{
   margin-top: -15px;
@@ -78,7 +79,7 @@ body{
 }
 
 .aboutcontainer{
-  width: 100em;
+  width: 108.5em;
   text-align: left;
   background-color: #2b3035;
   padding-left: 1.5em;
@@ -95,7 +96,7 @@ body{
 /* All Devices */
 @media screen and (max-width: 40em) { 
   /*INTRO CONTAINER SIZE-ADJUSTER */
-  .introcontainer{
+    .introcontainer{
     width: 20.625em;
     height:21.875em;
   }
@@ -114,6 +115,7 @@ body{
   height: 6.25em;
   flex-grow:1;
 }
+
 .textcolumncontainer{
   width: 20.625em;
 }
@@ -175,3 +177,8 @@ width: 0%;
 }
 /* All Devices END*/
 
+
+.test{
+   
+    display: inline-block;
+  }
