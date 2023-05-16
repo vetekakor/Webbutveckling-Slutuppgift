@@ -102,76 +102,65 @@ body{
 .listbr{
   padding-bottom: 20px;
 }
-/* All Devices */
-@media screen and (max-width: 40em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
-    .introcontainer{
-    width: 20.625em;
-    height:21.875em;
+
+/*All Galaxy Devices*/
+@media screen and (max-width: 412px)
+{
+  .introcontainer{
+    width: 70%;
+    border-radius: 10%;
   }
-  .lasttextcolumncontainer{
-    width: 20.625em;
-    height:31.875em;
-    margin-left: 25px;
-  
-  }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
+  width: 5em;
+  height: 5em;
 }
-
 .textcolumncontainer{
-  width: 20.625em;
+  width: 90%;
+}
+.lasttextcolumncontainer{
+  width: 90%;
 }
 .aboutcontainer{
-  width: 20.625em;
+  width: 90%;
 }
 .justify-content-around{
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+}
+
+/*iPad*/
+@media screen and (max-width: 810px)
+{
+    .introcontainer{
+    width: 70%;
+    border-radius: 10%;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
+}
+.introimagesize{
+  width: 5em;
+  height: 5em;
+}
+.textcolumncontainer{
+  width: 90%;
+}
 .lasttextcolumncontainer{
+  width: 90%;
+}
+.aboutcontainer{
+  width: 90%;
+}
+.justify-content-around{
+  max-width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
 }
-
-@media screen and (min-width: 140em) { 
-.textcolumncontainer{
-  width: 50%;
-}
-.aboutcontainer{
-  width: 50%;
-}
-.introcontainer{
-  width: 50%;
-}
-.introimagesize{
-  width:  0%;
-
-}
-.introquestimage{
-width: 0%;
-
-} 
-.pmargin2{
-  margin-left: 7em;
-}
-}
-
-}
-/* All Devices END*/
-
-

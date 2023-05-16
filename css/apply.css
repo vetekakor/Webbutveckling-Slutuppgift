@@ -48,7 +48,15 @@ body{
 }
 
 /*FORMS*/
-
+.formcontainer{
+  width: 50em;
+  padding-top:  2em;
+  padding-bottom:  2em;
+  text-align: left;
+  margin-top:   6.25em;
+  background: #2b3035;
+  margin-bottom:  6.25em;
+}
 
 /* FOOTER */
 .sidfot{
@@ -61,49 +69,44 @@ body{
   color: white;
 }
 
-/* All Devices */
-/*Everything below Laptop monitor*/
-@media screen and (max-width: 40em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
+/*All Galaxy Devices*/
+@media screen and (max-width: 412px)
+{
   .introcontainer{
-    width: 20.625em;
-    height:21.875em;
+    width: 70%;
+    border-radius: 15px;
   }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
+  width: 5em;
+  height: 5em;
+}
+.formcontainer{
+  width: 100%;
+  overflow: hidden;
 }
 }
 
-/*Everything above 24"*/
-@media screen and (min-width: 140em) { 
-.introcontainer{
-  width: 50%;
+/*iPad*/
+@media screen and (max-width: 810px)
+{
+    .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width:  0%;
-
+  width: 5em;
+  height: 5em;
 }
-.introquestimage{
-width: 0%;
-
-} 
-
-.pmargin2{
-  margin-left: 7em;
+.formcontainer{
+  width: 100%;
+  overflow: hidden;
 }
 }
-}
-/* All Devices END*/
-

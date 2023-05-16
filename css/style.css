@@ -92,66 +92,49 @@ body{
   color: white;
 }
 
-/* All Devices */
-/*Everything below Laptop monitor*/
-@media screen and (max-width: 40em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
+/*All Galaxy Devices*/
+@media screen and (max-width: 412px)
+{
   .introcontainer{
-    width: 20.625em;
-    height:21.875em;
+    width: 70%;
+    border-radius: 15px;
   }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
-}
-.textcolumncontainer{
-  width: 20.625em;
-  margin-left: 25px;
-}
-.justify-content-around{
-  max-width: 100%;
+  width: 5em;
+  height: 5em;
 }
 .ytcolumncontainer{
-  margin-left: 25px;
+  max-width: 90%;
+  margin-top: 1em;
 }
 }
 
-/*Everything above 24"*/
-@media screen and (min-width: 140em) { 
-.textcolumncontainer{
-  width: 50%;
-}
-.ytcolumncontainer{
-  width: 50%;
-}
-.introcontainer{
-  width: 50%;
+/*iPad*/
+@media screen and (max-width: 810px)
+{
+    .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width:  0%;
-
+  width: 5em;
+  height: 5em;
 }
-.introquestimage{
-width: 0%;
-
-} 
-
-.pmargin2{
-  margin-left: 7em;
+.textcolumncontainer{
+  width: 90%;
 }
+.ytcolumncontainer{
+  max-width: 90%;
+  margin-top: 1em;
 }
 
-}
-/* All Devices END*/
 
+}

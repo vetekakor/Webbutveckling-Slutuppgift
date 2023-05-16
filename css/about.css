@@ -71,49 +71,47 @@ body{
   color: white;
 }
 
-/* All Devices */
-/* SMALL SCREEN */
-@media screen and (max-width: 768px) { 
+/*All Galaxy Devices*/
+@media screen and (max-width: 412px)
+{
   .introcontainer{
-    width: 20.625em;
-    height:21.875em;
+    width: 70%;
+    border-radius: 15px;
   }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
+  width: 5em;
+  height: 5em;
 }
-.textcolumncontainer{
-  width: 20.625em;
+.ytcolumncontainer{
+  max-width: 90%;
+  margin-top: 1em;
 }
 }
-/* BIG SCREEN */
-@media screen and (min-width: 1081px) { 
-.introcontainer{
-  width: 50%;
+
+/*iPad*/
+@media screen and (max-width: 810px)
+{
+    .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
 }
 .introimagesize{
-  width:  0%;
-
+  width: 5em;
+  height: 5em;
 }
-.introquestimage{
-width: 0%;
-
-} 
-
 .textcolumncontainer{
-  width: 50%;
+  width: 90%;
+}
+.ytcolumncontainer{
+  max-width: 90%;
+  margin-top: 1em;
 }
 }
-}
-/* All Devices END*/
