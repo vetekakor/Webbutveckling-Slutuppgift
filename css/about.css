@@ -113,7 +113,7 @@ body{
 }
 
 /*Laptop*/
-@media screen and (max-width: 1366px)
+@media screen and (1000px <= width < 1600px)
 {
 .textcolumncontainer{
   width: 90%;
