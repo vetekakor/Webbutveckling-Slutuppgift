@@ -110,3 +110,11 @@ body{
   overflow: hidden;
 }
 }
+
+/*Laptop*/
+@media screen and (1000px <= width < 1600px)
+{
+  .introcontainer{
+    border-radius: 15px;
+  }
+}
