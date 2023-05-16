@@ -118,4 +118,8 @@ body{
 .textcolumncontainer{
   width: 90%;
 }
+.introcontainer{
+    border-radius: 15px;
+  }
 }
+
