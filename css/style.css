@@ -146,6 +146,7 @@ body{
   .introcontainer{
     width: 50%;
     border-radius: 15px;
+    margin-top:   3em;
   }
   .introquestimage{
   width: 4em;
@@ -157,8 +158,12 @@ body{
 }
 .ytcolumncontainer{
   max-width: 45%;
+  margin-top:  3em;
+  margin-bottom: 3em;
 }
 .textcolumncontainer{
   width: 45%;
+  margin-top:   3em;
+  margin-bottom: 3em;
 }
 }

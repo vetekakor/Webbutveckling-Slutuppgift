@@ -108,7 +108,7 @@ body{
 {
   .introcontainer{
     width: 70%;
-    border-radius: 10%;
+    border-radius: 15px;
   }
   .introquestimage{
   width: 4em;
@@ -139,7 +139,7 @@ body{
 {
     .introcontainer{
     width: 70%;
-    border-radius: 10%;
+    border-radius: 15px;
   }
   .introquestimage{
   width: 4em;
@@ -176,4 +176,8 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+  .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
 }
