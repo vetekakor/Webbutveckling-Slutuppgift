@@ -138,3 +138,26 @@ body{
 
 
 }
+
+/*Laptop*/
+@media screen and (max-width: 1366px)
+{
+  .introcontainer{
+    width: 50%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
+}
+.introimagesize{
+  width: 5em;
+  height: 5em;
+}
+.ytcolumncontainer{
+  max-width: 45%;
+}
+.textcolumncontainer{
+  width: 45%;
+}
+}

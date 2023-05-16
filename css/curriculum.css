@@ -164,3 +164,11 @@ body{
   margin-right: auto;
 }
 }
+
+/*Laptop*/
+@media screen and (max-width: 1366px)
+{
+.aboutcontainer{
+  width: 50em;
+}
+}
