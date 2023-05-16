@@ -38,7 +38,6 @@ body{
    flex-grow: 1;
 }
 .introquestimage{
-  margin: right;
   width:  9.375em;
   flex-grow: 1;
 } 
@@ -70,7 +69,9 @@ body{
    
     display: inline-block;
   }
-
+.nodot{
+  list-style-type: none;
+}
 /* FOOTER */
 .sidfot{
   background-color: #2b3035;
@@ -108,6 +109,12 @@ body{
     width: 20.625em;
     height:21.875em;
   }
+  .lasttextcolumncontainer{
+    width: 20.625em;
+    height:31.875em;
+    margin-left: 25px;
+  
+  }
   .introdiscordimage{
     margin-left: 0em;
   }
@@ -129,6 +136,15 @@ body{
 }
 .aboutcontainer{
   width: 20.625em;
+}
+.justify-content-around{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lasttextcolumncontainer{
+  margin-left: auto;
+  margin-right: auto;
 }
 }
 
@@ -150,38 +166,11 @@ body{
 width: 0%;
 
 } 
-.textadjust{
-  font-size: 300%;
-}
 .pmargin2{
   margin-left: 7em;
 }
 }
-/*Laptop monitor*/
-@media screen and (max-width: 60em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
-  .introcontainer{
-    width: 41.25em;
-    height:21.875em;
-  }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
-}
-.introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
-}
-.textcolumncontainer{
-  width: 41.25em;
-}
+
 }
 /* All Devices END*/
 

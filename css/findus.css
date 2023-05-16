@@ -38,7 +38,6 @@ body{
    flex-grow: 1;
 }
 .introquestimage{
-  margin: right;
   width:  9.375em;
   flex-grow: 1;
 } 
@@ -81,10 +80,10 @@ body{
 
 /* All Devices */
 /*Everything below Laptop monitor*/
-@media screen and (max-width: 40em) { 
+@media screen and (max-width: 59em) { 
   /*INTRO CONTAINER SIZE-ADJUSTER */
   .introcontainer{
-    width: 20.625em;
+    width: 10.625em;
     height:21.875em;
   }
   .introdiscordimage{
@@ -126,38 +125,10 @@ body{
 width: 0%;
 
 } 
-.textadjust{
-  font-size: 300%;
-}
+
 .pmargin2{
   margin-left: 7em;
 }
-}
-
-/*Laptop monitor*/
-@media screen and (max-width: 60em) { 
-  /*INTRO CONTAINER SIZE-ADJUSTER */
-  .introcontainer{
-    width: 41.25em;
-    height:21.875em;
-  }
-  .introdiscordimage{
-    margin-left: 0em;
-  }
-  .introfacebookimage{
-  margin-right:   0em;
-}
-.introquestimage{
-  width: 5.625em;
-  height: 5.625em;
-}
-.introimagesize{
-  width: 6.25em;
-  height: 6.25em;
-  flex-grow:1;
-}
-.textcolumncontainer{
-  width: 41.25em;
 }
 }
 /* All Devices END*/
