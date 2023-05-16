@@ -66,6 +66,11 @@ body{
   background-color: #2b3035;
 }
 
+.inlineblock{
+   
+    display: inline-block;
+  }
+
 /* FOOTER */
 .sidfot{
   background-color: #2b3035;
@@ -93,6 +98,9 @@ body{
   flex-grow: 1;
 }
 
+.listbr{
+  padding-bottom: 20px;
+}
 /* All Devices */
 @media screen and (max-width: 40em) { 
   /*INTRO CONTAINER SIZE-ADJUSTER */
@@ -178,7 +186,3 @@ width: 0%;
 /* All Devices END*/
 
 
-.test{
-   
-    display: inline-block;
-  }
