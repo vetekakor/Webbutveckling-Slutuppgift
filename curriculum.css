@@ -1,0 +1,201 @@
+body{
+      font-family: Montserrat;
+      color: white;
+      background-image: url('../bilder/index_background.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* INTRO CONTAINER */
+.introcontainer{
+  width:  50em;
+  margin-top:   6.25em;
+  background-color: #2b3035
+;  margin-left:auto;
+  margin-right: auto;
+}
+.delunderline{
+  text-decoration:none;
+  display:flex;
+  justify-content: center;
+}
+
+.textalign{
+  text-align:   center;
+}
+.whitetext{
+  color: white;
+}
+.introimagesize{
+  width:  10em;
+}
+.introdiscordimage{
+ flex-grow: 1;
+}
+.introfacebookimage{
+   flex-grow: 1;
+}
+.introquestimage{
+  width:  9.375em;
+  flex-grow: 1;
+} 
+.socials{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* TEXT COLUMN*/
+
+
+.textcolumncontainer{
+  width: 50em;
+  text-align: left;
+  margin-top:   6.25em;
+  background-color: #2b3035;
+}
+
+.lasttextcolumncontainer{
+  width: 50em;
+  text-align: left;
+  margin-top:   6.25em;
+  margin-bottom:   6.25em;
+  background-color: #2b3035;
+}
+
+.inlineblock{
+   
+    display: inline-block;
+  }
+.nodot{
+  list-style-type: none;
+}
+/* FOOTER */
+.sidfot{
+  background-color: #2b3035;
+
+}
+.pmargin{
+  margin-top: -15px;
+}
+.footerhyperlinkcolour{
+  color: white;
+}
+
+.aboutcontainer{
+  width: 108.5em;
+  text-align: left;
+  background-color: #2b3035;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-top:   6.25em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flexgrow{
+  flex-grow: 1;
+}
+
+.listbr{
+  padding-bottom: 20px;
+}
+
+/*All Galaxy Devices*/
+@media screen and (max-width: 412px)
+{
+  .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
+}
+.introimagesize{
+  width: 5em;
+  height: 5em;
+}
+.textcolumncontainer{
+  width: 90%;
+}
+.lasttextcolumncontainer{
+  width: 90%;
+}
+.aboutcontainer{
+  width: 90%;
+}
+.justify-content-around{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lasttextcolumncontainer{
+  margin-top:   0em;
+}
+.625{
+  margin-bottom:  6.25em;
+}
+}
+
+/*iPad*/
+@media screen and (max-width: 810px)
+{
+    .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .introquestimage{
+  width: 4em;
+  height: 4em;
+}
+.introimagesize{
+  width: 5em;
+  height: 5em;
+}
+.textcolumncontainer{
+  width: 90%;
+}
+.lasttextcolumncontainer{
+  width: 90%;
+}
+.aboutcontainer{
+  width: 90%;
+}
+.justify-content-around{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lasttextcolumncontainer{
+  margin-top:   0em;
+}
+.625{
+  margin-bottom:  6.25em;
+}
+}
+
+/*Laptop*/
+@media screen and (1000px <= width < 1600px)
+{
+.aboutcontainer{
+  width: 50em;
+}
+.justify-content-around{
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .introcontainer{
+    width: 70%;
+    border-radius: 15px;
+  }
+  .lasttextcolumncontainer{
+  margin-top:   0em;
+}
+.625{
+  margin-bottom:  6.25em;
+}
+}
